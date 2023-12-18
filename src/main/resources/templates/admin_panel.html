@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Admin Panel</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color:#0ab8e4;
+    }
+
+    .login-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .login-form {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+
+    h2 {
+      margin-top: 0;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 8px;
+    }
+
+    input[type="text"],
+    input[type="password"],
+    button {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      box-sizing: border-box;
+    }
+
+    button {
+      background-color: rgb(44, 177, 255);
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: rgb(44, 178, 255);
+    }
+
+    button.register {
+      background-color: rgb(37, 187, 247);
+    }
+
+    button.register:hover {
+      background-color: rgb(7, 119, 153);
+    }
+  </style>
+</head>
+<body>
+  <div class="login-container">
+    <form class="login-form" id="loginForm">
+      <h2>Admin Panel</h2>
+      <button type="submit" class="register">Show users</button>
+      <button type="submit" class="register"><a href="update.html">Update users</a></button>
+      <button type="submit" class="register"><a href="../../../../../../Documents/AİCRM/delete%20user.html">Delete users</a></button>
+    </form>
+  </div>
+</body>
+</html>
